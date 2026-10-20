@@ -1,0 +1,53 @@
+name: Daily report
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-report
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install
+        run: |
+          if [ -f package-lock.json ]; then npm ci --no-audit --no-fund; else npm install --no-audit --no-fund; fi
+
+      - name: Test
+        run: npm test
+
+      - name: Build
+        run: npm run build
+
+      - name: Generate REPORT.md
+        env:
+          # Optional. Leave unset to use the free public RPC. Set a repository secret named
+          # BASE_RPC_URL to a node that serves older logs if you want the full 24 hour window.
+          BASE_RPC_URL: ${{ secrets.BASE_RPC_URL }}
+        run: node dist/cli.js --hours 24 --out REPORT.md
+
+      - name: Commit REPORT.md
+        run: |
+          if git diff --quiet -- REPORT.md; then
+            echo "REPORT.md unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add REPORT.md
+          git commit -m "Daily report $(date -u +%Y-%m-%d)"
+          git push

@@ -1,0 +1,27 @@
+{
+  "name": "base-launch-watch",
+  "version": "0.1.0",
+  "description": "Lists new Clanker v4 token launches on Base and flags the ones whose launch wallet sent out its launch tokens within the hour. Public on-chain data only.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "base-launch-watch": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/cli.js",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "typescript": "5.9.3",
+    "vitest": "5.0.5"
+  }
+}
