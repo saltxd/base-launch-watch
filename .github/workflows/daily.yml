@@ -1,8 +1,10 @@
-name: Daily report
+name: Report
 
 on:
   schedule:
-    - cron: "0 6 * * *"
+    # Every 4 hours. The free RPC serves about 5.5 hours of logs, so consecutive scans overlap
+    # and history/ stitches them into a full day.
+    - cron: "17 */4 * * *"
   workflow_dispatch:
 
 permissions:
@@ -36,18 +38,18 @@ jobs:
       - name: Generate REPORT.md
         env:
           # Optional. Leave unset to use the free public RPC. Set a repository secret named
-          # BASE_RPC_URL to a node that serves older logs if you want the full 24 hour window.
+          # BASE_RPC_URL to a node that serves older logs if a single scan should cover 24 hours.
           BASE_RPC_URL: ${{ secrets.BASE_RPC_URL }}
-        run: node dist/cli.js --hours 24 --out REPORT.md
+        run: node dist/cli.js --hours 24 --out REPORT.md --history history
 
-      - name: Commit REPORT.md
+      - name: Commit REPORT.md and history
         run: |
-          if git diff --quiet -- REPORT.md; then
-            echo "REPORT.md unchanged"
+          git add REPORT.md history/
+          if git diff --cached --quiet; then
+            echo "Nothing changed"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add REPORT.md
-          git commit -m "Daily report $(date -u +%Y-%m-%d)"
+          git commit -m "Report $(date -u '+%Y-%m-%d %H:%M') UTC"
           git push
