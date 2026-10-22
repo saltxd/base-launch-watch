@@ -6,7 +6,7 @@
 
 New Clanker v4 launches on Base from the last 24 hours whose launch wallet sent out 90% or more of the tokens it received in the launch transaction within one hour (1,800 blocks) of launch. Newest first.
 
-Generated 2026-10-22 20:05 UTC at block 52955087.
+Generated 2026-10-22 23:20 UTC at block 52960954.
 
 | Token | Token address | Launch time (UTC) | Launch wallet | Tokens received | Minutes until 90% was gone | Basescan |
 | --- | --- | --- | --- | ---: | ---: | --- |
@@ -19,10 +19,8 @@ Generated 2026-10-22 20:05 UTC at block 52955087.
 | LEAK | `0xd42b464f66996257a6fb437c17721e194b521b07` | 2026-10-21 23:26 | `0xa28494cf4c09a5fdadece74f749acec935450077` | 893,885.25 | 5.8 | [token](https://basescan.org/token/0xd42b464f66996257a6fb437c17721e194b521b07), [launch tx](https://basescan.org/tx/0x7a03ecb337497b9a92b3732091b043d2112be3799702704a10e6126ed3c11a33) |
 | LEAK | `0xd4fe064f40f797e64b02991a7b2887c86f8d6b07` | 2026-10-21 23:26 | `0xa28494cf4c09a5fdadece74f749acec935450077` | 893,885.25 | 16.6 | [token](https://basescan.org/token/0xd4fe064f40f797e64b02991a7b2887c86f8d6b07), [launch tx](https://basescan.org/tx/0xf669147c4b81ba2ba12c451a9010a261d599ad86b3061c3c3fac10828d9f2f9d) |
 | LEAK | `0x6017b7f32a3f7379bb53a6dcdccfe53111c8fb07` | 2026-10-21 23:26 | `0xa28494cf4c09a5fdadece74f749acec935450077` | 893,885.25 | 21.8 | [token](https://basescan.org/token/0x6017b7f32a3f7379bb53a6dcdccfe53111c8fb07), [launch tx](https://basescan.org/tx/0xb166ab4addc0a6462bbefb5e0ef58ace855766355079c916697fe603ca295f29) |
-| BUFFOR | `0xe983c90af491a1b58bd4c76d061421274e40bb07` | 2026-10-21 21:24 | `0x49b16c512af2ff36fcc6de976d23288da1c4245e` | 188,568,898.52 | 0.7 | [token](https://basescan.org/token/0xe983c90af491a1b58bd4c76d061421274e40bb07), [launch tx](https://basescan.org/tx/0x887b84bb19d6322f9ca483227ef8125b5a330db88527f143f4d317b30b2bcaf7) |
-| BST | `0x39ebfc3784bf4a0565042a1a07f2671d8b1d9b07` | 2026-10-21 21:12 | `0x49b16c512af2ff36fcc6de976d23288da1c4245e` | 281,368,932.78 | 0.9 | [token](https://basescan.org/token/0x39ebfc3784bf4a0565042a1a07f2671d8b1d9b07), [launch tx](https://basescan.org/tx/0x0a7d862d9f516b549e3b62c37ffe7d1b8780ef2b95dafff288117846fd2d2542) |
 
-Launches flagged in the last 24 hours: 11. Latest scan: launches checked: 67. Launches with a dev buy: 42. Launches flagged: 1.
+Launches flagged in the last 24 hours: 9. Latest scan: launches checked: 50. Launches with a dev buy: 40. Launches flagged: 1.
 
 ## Launch wallets flagged more than once (last 7 days)
 
@@ -33,13 +31,13 @@ Launches flagged in the last 24 hours: 11. Latest scan: launches checked: 67. La
 | [`0x49b16c512af2ff36fcc6de976d23288da1c4245e`](https://basescan.org/address/0x49b16c512af2ff36fcc6de976d23288da1c4245e) | 3 | `0xe983c90af491a1b58bd4c76d061421274e40bb07`, `0x39ebfc3784bf4a0565042a1a07f2671d8b1d9b07`, `0x311712e80cc65e37af6ace4fc152b7389dc89b07` |
 | [`0x1c1beebbf3ff938264bacf9535d5eb8efd2ce4fb`](https://basescan.org/address/0x1c1beebbf3ff938264bacf9535d5eb8efd2ce4fb) | 2 | `0x0dc614216ae34277fba9751c1d79067e8fc76c6b`, `0x89099225ead4ac1af5595a0a0e7c215af55b7886` |
 
-Based on the saved scan history, which covers about 38.7 of the last 168 hours. Launches outside the scanned blocks are not counted.
+Based on the saved scan history, which covers about 42.0 of the last 168 hours. Launches outside the scanned blocks are not counted.
 
 ## Coverage
 
-- Requested window: last 24 hours, blocks 52911888 to 52955087.
+- Requested window: last 24 hours, blocks 52917755 to 52960954.
 - This report merges 4 scan(s) that read logs in this window. Flagged launches are kept in `history/flagged.jsonl` (one line per token) and each scan's block range in `history/scans.jsonl`.
 - **Partial window.** The scans covered about 19.7 of 24 hours. Not covered: blocks 52927296 to 52933690 (about 2026-10-22 04:38 to 2026-10-22 08:12 UTC); blocks 52943691 to 52945087 (about 2026-10-22 13:45 to 2026-10-22 14:32 UTC). Launches in those blocks were not checked. Use `--rpc` with a node that serves older logs for the full window.
-- Latest scan: the RPC (base-rpc.publicnode.com) only served logs from block 52945088 (2026-10-22 14:32 UTC), about 5.6 hours.
-- 4 launch(es) with a dev buy are less than an hour old; their hour was only partly observed. The next scan checks them again.
+- Latest scan: the RPC (base-rpc.publicnode.com) only served logs from block 52950954 (2026-10-22 17:47 UTC), about 5.6 hours.
+- 25 launch(es) with a dev buy are less than an hour old; their hour was only partly observed. The next scan checks them again.
 - Rule: the launch wallet is the sender of the launch transaction. Tokens received are the token Transfers to it from a non-zero address in that transaction. Outgoing Transfers from it in the 1,800 blocks after the launch block are summed in order; the first block where the total reaches 90% of what it received is reported. Minutes assume 2 seconds per block.
