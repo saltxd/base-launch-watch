@@ -6,15 +6,14 @@
 
 New Clanker v4 launches on Base from the last 24 hours whose launch wallet sent out 90% or more of the tokens it received in the launch transaction within one hour (1,800 blocks) of launch. Newest first.
 
-Generated 2026-10-23 13:22 UTC at block 52986216.
+Generated 2026-10-23 19:56 UTC at block 52998024.
 
 | Token | Token address | Launch time (UTC) | Launch wallet | Tokens received | Minutes until 90% was gone | Basescan |
 | --- | --- | --- | --- | ---: | ---: | --- |
 | SELFCASTER | `0xf8710b4892b6f64bd48c5b3ee2d0eb8163f2cb07` | 2026-10-23 13:02 | `0x40540a62b6b29506ca31cb7a6d78d4ca0a1819fa` | 12,202,020.03 | 1.7 | [token](https://basescan.org/token/0xf8710b4892b6f64bd48c5b3ee2d0eb8163f2cb07), [launch tx](https://basescan.org/tx/0x4fc3506d8a67c1d3dc97b321ac0717ea8075e477045afad6f8a3641c951c0eec) |
 | Kimchi | `0xbb409a0d7f33ff798eb5ddf3fb52203884d01b07` | 2026-10-23 02:48 | `0x010e02f119b8dc076c92c457b6d3416a25686c69` | 99,999,999,912.72 | 1.0 | [token](https://basescan.org/token/0xbb409a0d7f33ff798eb5ddf3fb52203884d01b07), [launch tx](https://basescan.org/tx/0x2525bac6234b9090a2fbb3a48ffa50ef0fbb640d715b371e0e738dcf600bb27d) |
-| EGEN | `0x7a77aca6114026c5484e5b25c710026a0a76db07` | 2026-10-22 19:04 | `0x0a4b8c6d5b04fd6ecd33e916551f280601c745fe` | 1,032,522,141.54 | 3.4 | [token](https://basescan.org/token/0x7a77aca6114026c5484e5b25c710026a0a76db07), [launch tx](https://basescan.org/tx/0xbfcdebd6cfb1ec63075dfce814e1178cc9bd2a38e36e988d148068fc204a4212) |
 
-Launches flagged in the last 24 hours: 3. Latest scan: launches checked: 26. Launches with a dev buy: 19. Launches flagged: 1.
+Launches flagged in the last 24 hours: 2. Latest scan: launches checked: 208. Launches with a dev buy: 149. Launches flagged: 2.
 
 ## Launch wallets flagged more than once (last 7 days)
 
@@ -26,13 +25,13 @@ Launches flagged in the last 24 hours: 3. Latest scan: launches checked: 26. Lau
 | [`0x49b16c512af2ff36fcc6de976d23288da1c4245e`](https://basescan.org/address/0x49b16c512af2ff36fcc6de976d23288da1c4245e) | 3 | `0xe983c90af491a1b58bd4c76d061421274e40bb07`, `0x39ebfc3784bf4a0565042a1a07f2671d8b1d9b07`, `0x311712e80cc65e37af6ace4fc152b7389dc89b07` |
 | [`0x1c1beebbf3ff938264bacf9535d5eb8efd2ce4fb`](https://basescan.org/address/0x1c1beebbf3ff938264bacf9535d5eb8efd2ce4fb) | 2 | `0x0dc614216ae34277fba9751c1d79067e8fc76c6b`, `0x89099225ead4ac1af5595a0a0e7c215af55b7886` |
 
-Based on the saved scan history, which covers about 52.9 of the last 168 hours. Launches outside the scanned blocks are not counted.
+Based on the saved scan history, which covers about 62.6 of the last 168 hours. Launches outside the scanned blocks are not counted.
 
 ## Coverage
 
-- Requested window: last 24 hours, blocks 52943017 to 52986216.
+- Requested window: last 24 hours, blocks 52954825 to 52998024.
 - This report merges 5 scan(s) that read logs in this window. Flagged launches are kept in `history/flagged.jsonl` (one line per token) and each scan's block range in `history/scans.jsonl`.
-- **Partial window.** The scans covered about 20.1 of 24 hours. Not covered: blocks 52943691 to 52945087 (about 2026-10-22 13:45 to 2026-10-22 14:32 UTC); blocks 52970664 to 52976217 (about 2026-10-23 04:44 to 2026-10-23 07:49 UTC). Launches in those blocks were not checked. Use `--rpc` with a node that serves older logs for the full window.
-- Latest scan: the RPC (base-rpc.publicnode.com) only served logs from block 52976218 (2026-10-23 07:49 UTC), about 5.6 hours.
-- 2 launch(es) with a dev buy are less than an hour old; their hour was only partly observed. The next scan checks them again.
+- Full window covered by the merged scans.
+- Latest scan: full window served (base-rpc.publicnode.com).
+- 4 launch(es) with a dev buy are less than an hour old; their hour was only partly observed. The next scan checks them again.
 - Rule: the launch wallet is the sender of the launch transaction. Tokens received are the token Transfers to it from a non-zero address in that transaction. Outgoing Transfers from it in the 1,800 blocks after the launch block are summed in order; the first block where the total reaches 90% of what it received is reported. Minutes assume 2 seconds per block.
