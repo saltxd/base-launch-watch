@@ -6,7 +6,7 @@
 
 New Clanker v4 launches on Base from the last 24 hours whose launch wallet sent out 90% or more of the tokens it received in the launch transaction within one hour (1,800 blocks) of launch. Newest first.
 
-Generated 2026-10-24 18:46 UTC at block 53039121.
+Generated 2026-10-24 22:27 UTC at block 53045756.
 
 | Token | Token address | Launch time (UTC) | Launch wallet | Tokens received | Minutes until 90% was gone | Basescan |
 | --- | --- | --- | --- | ---: | ---: | --- |
@@ -17,7 +17,7 @@ Generated 2026-10-24 18:46 UTC at block 53039121.
 | Paper | `0xbec0c62384de58cd1336897236cf71bfd6883b07` | 2026-10-24 07:25 | `0x010e02f119b8dc076c92c457b6d3416a25686c69` | 99,999,999,912.72 | 6.2 | [token](https://basescan.org/token/0xbec0c62384de58cd1336897236cf71bfd6883b07), [launch tx](https://basescan.org/tx/0x11e141f743ff43380fc29cd0be614118be92fe71a34d210f6cd975f0516ee27a) |
 | ELON | `0x66650590ff805a33f7c81dd63e948dedc55c3b07` | 2026-10-24 01:54 | `0x010e02f119b8dc076c92c457b6d3416a25686c69` | 99,999,999,912.72 | 1.2 | [token](https://basescan.org/token/0x66650590ff805a33f7c81dd63e948dedc55c3b07), [launch tx](https://basescan.org/tx/0x9557dccd35e7c402ba1eaf3a3496994f7511e04d617de7ab0e445fe2dc51b8da) |
 
-Launches flagged in the last 24 hours: 6. Latest scan: launches checked: 208. Launches with a dev buy: 119. Launches flagged: 6.
+Launches flagged in the last 24 hours: 6. Latest scan: launches checked: 220. Launches with a dev buy: 119. Launches flagged: 6.
 
 ## Launch wallets flagged more than once (last 7 days)
 
@@ -31,13 +31,12 @@ Launches flagged in the last 24 hours: 6. Latest scan: launches checked: 208. La
 | [`0x49b16c512af2ff36fcc6de976d23288da1c4245e`](https://basescan.org/address/0x49b16c512af2ff36fcc6de976d23288da1c4245e) | 3 | `0xe983c90af491a1b58bd4c76d061421274e40bb07`, `0x39ebfc3784bf4a0565042a1a07f2671d8b1d9b07`, `0x311712e80cc65e37af6ace4fc152b7389dc89b07` |
 | [`0x1c1beebbf3ff938264bacf9535d5eb8efd2ce4fb`](https://basescan.org/address/0x1c1beebbf3ff938264bacf9535d5eb8efd2ce4fb) | 2 | `0x0dc614216ae34277fba9751c1d79067e8fc76c6b`, `0x89099225ead4ac1af5595a0a0e7c215af55b7886` |
 
-Based on the saved scan history, which covers about 85.4 of the last 168 hours. Launches outside the scanned blocks are not counted.
+Based on the saved scan history, which covers about 89.1 of the last 168 hours. Launches outside the scanned blocks are not counted.
 
 ## Coverage
 
-- Requested window: last 24 hours, blocks 52995922 to 53039121.
+- Requested window: last 24 hours, blocks 53002557 to 53045756.
 - This report merges 5 scan(s) that read logs in this window. Flagged launches are kept in `history/flagged.jsonl` (one line per token) and each scan's block range in `history/scans.jsonl`.
 - Full window covered by the merged scans.
 - Latest scan: full window served (base-rpc.publicnode.com).
-- 5 launch(es) with a dev buy are less than an hour old; their hour was only partly observed. The next scan checks them again.
 - Rule: the launch wallet is the sender of the launch transaction. Tokens received are the token Transfers to it from a non-zero address in that transaction. Outgoing Transfers from it in the 1,800 blocks after the launch block are summed in order; the first block where the total reaches 90% of what it received is reported. Minutes assume 2 seconds per block.
