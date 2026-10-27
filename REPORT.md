@@ -6,20 +6,15 @@
 
 New Clanker v4 launches on Base from the last 24 hours whose launch wallet sent out 90% or more of the tokens it received in the launch transaction within one hour (1,800 blocks) of launch. Newest first.
 
-Generated 2026-10-27 04:59 UTC at block 53143900.
+Generated 2026-10-27 14:27 UTC at block 53160949.
 
 | Token | Token address | Launch time (UTC) | Launch wallet | Tokens received | Minutes until 90% was gone | Basescan |
 | --- | --- | --- | --- | ---: | ---: | --- |
 | Paper | `0xf5954f33798529917c4940317cada852f00c9b07` | 2026-10-27 02:32 | `0xa83b4fca82265ae81f6254c9e410a13418f25f92` | 99,999,999,912.72 | 4.2 | [token](https://basescan.org/token/0xf5954f33798529917c4940317cada852f00c9b07), [launch tx](https://basescan.org/tx/0xadc0e2f3b676f1c81a983c3baafbd33c6deacc98d0eae5cc29e30da0de825d1b) |
 | Paper | `0xf436d2e84357a05ce6500b775a7c8159531e6b07` | 2026-10-27 01:59 | `0x010e02f119b8dc076c92c457b6d3416a25686c69` | 99,999,999,912.72 | 17.0 | [token](https://basescan.org/token/0xf436d2e84357a05ce6500b775a7c8159531e6b07), [launch tx](https://basescan.org/tx/0xad9903ef2186e52cf3bdb0b186f103b59acf69d0ac3899466c393b04b88f6d78) |
 | FALCON | `0x4bd36a8a93d6f21640dfc16102730944f60ceb07` | 2026-10-26 23:11 | `0xb2322fb6b8a3b9bafeccde9dfc44ba9faf6ce6e7` | 9,953,743.52 | 16.6 | [token](https://basescan.org/token/0x4bd36a8a93d6f21640dfc16102730944f60ceb07), [launch tx](https://basescan.org/tx/0x3905893e77c586c12a95e1833778ea663c4eab8495133f78110fd3c841168cfd) |
-| BSZGD | `0x91aa6256b3a112eb4b5e9bb8f3dfdf21bf72810c` | 2026-10-26 14:13 | `0x04383db609be240925aab2540350e79d76e7bde3` | 100,000,000,000 | 5.9 | [token](https://basescan.org/token/0x91aa6256b3a112eb4b5e9bb8f3dfdf21bf72810c), [launch tx](https://basescan.org/tx/0x83ce4952f31e2a6ea4aa3f33c108cf1427204f5bb2b12c4cca49ef4a85636c84) |
-| BSZOD | `0xefa3dcd6e21352819973fb0fb3fad7b957502be7` | 2026-10-26 14:11 | `0x04383db609be240925aab2540350e79d76e7bde3` | 100,000,000,000 | 1.8 | [token](https://basescan.org/token/0xefa3dcd6e21352819973fb0fb3fad7b957502be7), [launch tx](https://basescan.org/tx/0xba22413c7122f76328e5773ffb1f744ffd471ea0a17f0cc7efcb8b61d750e4d0) |
-| BSZTD | `0x5989cfa0f67e212228a92e818f2e6cf7af9e8fbf` | 2026-10-26 13:59 | `0x04383db609be240925aab2540350e79d76e7bde3` | 100,000,000,000 | 10.7 | [token](https://basescan.org/token/0x5989cfa0f67e212228a92e818f2e6cf7af9e8fbf), [launch tx](https://basescan.org/tx/0xc45b5663c9a9a4c16e2e05c59c9a64423df8d8317d924979f216c192ff65f893) |
-| Paper | `0x279326616f0bbf9c2c47c50febab5da469681b07` | 2026-10-26 13:29 | `0x010e02f119b8dc076c92c457b6d3416a25686c69` | 99,999,999,993.99 | 1.0 | [token](https://basescan.org/token/0x279326616f0bbf9c2c47c50febab5da469681b07), [launch tx](https://basescan.org/tx/0xb15bb48ba284ca61400fc0403bf1bd296df0111517e37cdd64512a780eb2fb98) |
-| Shadr | `0xf1fe5df1a14c466fa07b3cf95e82355bcc298b07` | 2026-10-26 08:54 | `0x58c5f70eff03e579928b6bfe0d95fb53003ddebc` | 119,112.17 | 25.1 | [token](https://basescan.org/token/0xf1fe5df1a14c466fa07b3cf95e82355bcc298b07), [launch tx](https://basescan.org/tx/0x804fb325f3f40430f66306cbae91508be44b56323a2f0123fed00f51f3bf9bf4) |
 
-Launches flagged in the last 24 hours: 8. Latest scan: launches checked: 226. Launches with a dev buy: 117. Launches flagged: 8.
+Launches flagged in the last 24 hours: 3. Latest scan: launches checked: 197. Launches with a dev buy: 116. Launches flagged: 3.
 
 ## Launch wallets flagged more than once (last 7 days)
 
@@ -33,12 +28,13 @@ Launches flagged in the last 24 hours: 8. Latest scan: launches checked: 226. La
 | [`0x49b16c512af2ff36fcc6de976d23288da1c4245e`](https://basescan.org/address/0x49b16c512af2ff36fcc6de976d23288da1c4245e) | 3 | `0xe983c90af491a1b58bd4c76d061421274e40bb07`, `0x39ebfc3784bf4a0565042a1a07f2671d8b1d9b07`, `0x311712e80cc65e37af6ace4fc152b7389dc89b07` |
 | [`0x1c1beebbf3ff938264bacf9535d5eb8efd2ce4fb`](https://basescan.org/address/0x1c1beebbf3ff938264bacf9535d5eb8efd2ce4fb) | 2 | `0x0dc614216ae34277fba9751c1d79067e8fc76c6b`, `0x89099225ead4ac1af5595a0a0e7c215af55b7886` |
 
-Based on the saved scan history, which covers about 143.6 of the last 168 hours. Launches outside the scanned blocks are not counted.
+Based on the saved scan history, which covers about 153.1 of the last 168 hours. Launches outside the scanned blocks are not counted.
 
 ## Coverage
 
-- Requested window: last 24 hours, blocks 53100701 to 53143900.
-- This report merges 3 scan(s) that read logs in this window. Flagged launches are kept in `history/flagged.jsonl` (one line per token) and each scan's block range in `history/scans.jsonl`.
+- Requested window: last 24 hours, blocks 53117750 to 53160949.
+- This report merges 4 scan(s) that read logs in this window. Flagged launches are kept in `history/flagged.jsonl` (one line per token) and each scan's block range in `history/scans.jsonl`.
 - Full window covered by the merged scans.
 - Latest scan: full window served (base-rpc.publicnode.com).
+- 2 launch(es) with a dev buy are less than an hour old; their hour was only partly observed. The next scan checks them again.
 - Rule: the launch wallet is the sender of the launch transaction. Tokens received are the token Transfers to it from a non-zero address in that transaction. Outgoing Transfers from it in the 1,800 blocks after the launch block are summed in order; the first block where the total reaches 90% of what it received is reported. Minutes assume 2 seconds per block.
