@@ -6,15 +6,13 @@
 
 New Clanker v4 launches on Base from the last 24 hours whose launch wallet sent out 90% or more of the tokens it received in the launch transaction within one hour (1,800 blocks) of launch. Newest first.
 
-Generated 2026-10-30 05:42 UTC at block 53274808.
+Generated 2026-10-30 15:01 UTC at block 53291577.
 
 | Token | Token address | Launch time (UTC) | Launch wallet | Tokens received | Minutes until 90% was gone | Basescan |
 | --- | --- | --- | --- | ---: | ---: | --- |
 | 8453 | `0x72a22200c4017020b3fbc93236c711b7a0c14b07` | 2026-10-29 15:28 | `0xe2a096639ee7911f815c377ee46531cb9ed09218` | 35,792,776.81 | 45.5 | [token](https://basescan.org/token/0x72a22200c4017020b3fbc93236c711b7a0c14b07), [launch tx](https://basescan.org/tx/0xd6f4d79946be34a4d324b5b9ab404392bb2a25405531636613d3e968a1c6c227) |
-| worth | `0xeab657798dacb9c644cb51a37a6cc741942cfb07` | 2026-10-29 11:06 | `0xd166bb9fe1b19de89a8d24ede15bebc0e15c9555` | 12,087,624.01 | 7.0 | [token](https://basescan.org/token/0xeab657798dacb9c644cb51a37a6cc741942cfb07), [launch tx](https://basescan.org/tx/0xc794e1ac512aa643a13fff5fdd3868390088292775e6eb7463ebbef20adc91ff) |
-| 小小徐 | `0x0404483523016537ef1eb04e7f6cdbc5dd73fb07` | 2026-10-29 10:24 | `0xa83b4fca82265ae81f6254c9e410a13418f25f92` | 99,999,999,912.72 | 0.9 | [token](https://basescan.org/token/0x0404483523016537ef1eb04e7f6cdbc5dd73fb07), [launch tx](https://basescan.org/tx/0x34ad4328c90da69b770c344037635736ea4bad2c3bae3298f26fdd0ece4703cb) |
 
-Launches flagged in the last 24 hours: 3. Latest scan: launches checked: 299. Launches with a dev buy: 206. Launches flagged: 3.
+Launches flagged in the last 24 hours: 1. Latest scan: launches checked: 329. Launches with a dev buy: 236. Launches flagged: 1.
 
 ## Launch wallets flagged more than once (last 7 days)
 
@@ -31,7 +29,7 @@ Based on the saved scan history, which covers the full 7 days.
 
 ## Coverage
 
-- Requested window: last 24 hours, blocks 53231609 to 53274808.
+- Requested window: last 24 hours, blocks 53248378 to 53291577.
 - This report merges 4 scan(s) that read logs in this window. Flagged launches are kept in `history/flagged.jsonl` (one line per token) and each scan's block range in `history/scans.jsonl`.
 - Full window covered by the merged scans.
 - Latest scan: full window served (base-rpc.publicnode.com).
