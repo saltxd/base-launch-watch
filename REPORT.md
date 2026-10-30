@@ -6,13 +6,11 @@
 
 New Clanker v4 launches on Base from the last 24 hours whose launch wallet sent out 90% or more of the tokens it received in the launch transaction within one hour (1,800 blocks) of launch. Newest first.
 
-Generated 2026-10-30 15:01 UTC at block 53291577.
+Generated 2026-10-30 20:45 UTC at block 53301885.
 
-| Token | Token address | Launch time (UTC) | Launch wallet | Tokens received | Minutes until 90% was gone | Basescan |
-| --- | --- | --- | --- | ---: | ---: | --- |
-| 8453 | `0x72a22200c4017020b3fbc93236c711b7a0c14b07` | 2026-10-29 15:28 | `0xe2a096639ee7911f815c377ee46531cb9ed09218` | 35,792,776.81 | 45.5 | [token](https://basescan.org/token/0x72a22200c4017020b3fbc93236c711b7a0c14b07), [launch tx](https://basescan.org/tx/0xd6f4d79946be34a4d324b5b9ab404392bb2a25405531636613d3e968a1c6c227) |
+_No launches in the checked window matched the rule._
 
-Launches flagged in the last 24 hours: 1. Latest scan: launches checked: 329. Launches with a dev buy: 236. Launches flagged: 1.
+Launches flagged in the last 24 hours: 0. Latest scan: launches checked: 297. Launches with a dev buy: 220. Launches flagged: 0.
 
 ## Launch wallets flagged more than once (last 7 days)
 
@@ -29,9 +27,9 @@ Based on the saved scan history, which covers the full 7 days.
 
 ## Coverage
 
-- Requested window: last 24 hours, blocks 53248378 to 53291577.
+- Requested window: last 24 hours, blocks 53258686 to 53301885.
 - This report merges 4 scan(s) that read logs in this window. Flagged launches are kept in `history/flagged.jsonl` (one line per token) and each scan's block range in `history/scans.jsonl`.
 - Full window covered by the merged scans.
 - Latest scan: full window served (base-rpc.publicnode.com).
-- 5 launch(es) with a dev buy are less than an hour old; their hour was only partly observed. The next scan checks them again.
+- 4 launch(es) with a dev buy are less than an hour old; their hour was only partly observed. The next scan checks them again.
 - Rule: the launch wallet is the sender of the launch transaction. Tokens received are the token Transfers to it from a non-zero address in that transaction. Outgoing Transfers from it in the 1,800 blocks after the launch block are summed in order; the first block where the total reaches 90% of what it received is reported. Minutes assume 2 seconds per block.
