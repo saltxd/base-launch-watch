@@ -6,14 +6,13 @@
 
 New Clanker v4 launches on Base from the last 24 hours whose launch wallet sent out 90% or more of the tokens it received in the launch transaction within one hour (1,800 blocks) of launch. Newest first.
 
-Generated 2026-11-02 18:17 UTC at block 53427058.
+Generated 2026-11-03 02:16 UTC at block 53441415.
 
 | Token | Token address | Launch time (UTC) | Launch wallet | Tokens received | Minutes until 90% was gone | Basescan |
 | --- | --- | --- | --- | ---: | ---: | --- |
 | USD𑫝 ּ | `0xd783dab4a61c4bd246cae4b68379701fe91cfb07` | 2026-11-02 16:05 | `0xdcac6938aa51621e945b1b64b0ee2a0c2a2625ad` | 100,000,000,000 | 5.0 | [token](https://basescan.org/token/0xd783dab4a61c4bd246cae4b68379701fe91cfb07), [launch tx](https://basescan.org/tx/0x855aff534db84727d7c6068dbcd9e4948e29b07ba6c3b0976687c1740a360e66) |
-| DRS | `0xf2a84de1bf001ecb25b0a34c06a809a1f3df4b07` | 2026-11-01 18:29 | `0xdf75ebe830b43f0f8e272726adca0282c7a8251d` | 937,017,841.5 | 10.9 | [token](https://basescan.org/token/0xf2a84de1bf001ecb25b0a34c06a809a1f3df4b07), [launch tx](https://basescan.org/tx/0xf5e49e5ea03ce497a2d7612e5147add3f7e04a2fc3c17029f9cc9d2cf28b66f9) |
 
-Launches flagged in the last 24 hours: 2. Latest scan: launches checked: 224. Launches with a dev buy: 166. Launches flagged: 2.
+Launches flagged in the last 24 hours: 1. Latest scan: launches checked: 161. Launches with a dev buy: 113. Launches flagged: 1.
 
 ## Launch wallets flagged more than once (last 7 days)
 
@@ -27,9 +26,9 @@ Based on the saved scan history, which covers the full 7 days.
 
 ## Coverage
 
-- Requested window: last 24 hours, blocks 53383859 to 53427058.
+- Requested window: last 24 hours, blocks 53398216 to 53441415.
 - This report merges 3 scan(s) that read logs in this window. Flagged launches are kept in `history/flagged.jsonl` (one line per token) and each scan's block range in `history/scans.jsonl`.
 - Full window covered by the merged scans.
 - Latest scan: full window served (base-rpc.publicnode.com).
-- 4 launch(es) with a dev buy are less than an hour old; their hour was only partly observed. The next scan checks them again.
+- 6 launch(es) with a dev buy are less than an hour old; their hour was only partly observed. The next scan checks them again.
 - Rule: the launch wallet is the sender of the launch transaction. Tokens received are the token Transfers to it from a non-zero address in that transaction. Outgoing Transfers from it in the 1,800 blocks after the launch block are summed in order; the first block where the total reaches 90% of what it received is reported. Minutes assume 2 seconds per block.
