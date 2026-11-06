@@ -6,11 +6,11 @@
 
 New Clanker v4 launches on Base from the last 24 hours whose launch wallet sent out 90% or more of the tokens it received in the launch transaction within one hour (1,800 blocks) of launch. Newest first.
 
-Generated 2026-11-05 19:58 UTC at block 53591677.
+Generated 2026-11-06 00:57 UTC at block 53681259.
 
 _No launches in the checked window matched the rule._
 
-Launches flagged in the last 24 hours: 0. Latest scan: launches checked: 139. Launches with a dev buy: 44. Launches flagged: 0.
+Launches flagged in the last 24 hours: 0. Latest scan: launches checked: 11. Launches with a dev buy: 4. Launches flagged: 0.
 
 ## Launch wallets flagged more than once (last 7 days)
 
@@ -24,11 +24,11 @@ Launches flagged in the last 24 hours: 0. Latest scan: launches checked: 139. La
 | [`0x70cc3d0444f9f09722c27c9a9cd1355a3ea7a702`](https://basescan.org/address/0x70cc3d0444f9f09722c27c9a9cd1355a3ea7a702) | 2 | `0xf66feb69d4912367067d6d54b8c6adbc736f1b07`, `0x2faf4e07cd9af9d9d6cf84c47423cae5815aab07` |
 | [`0xdcac6938aa51621e945b1b64b0ee2a0c2a2625ad`](https://basescan.org/address/0xdcac6938aa51621e945b1b64b0ee2a0c2a2625ad) | 2 | `0x516a0a4e2dc687569aee3b6a11289e9dcc9c9b07`, `0xd783dab4a61c4bd246cae4b68379701fe91cfb07` |
 
-Based on the saved scan history, which covers about 166.5 of the last 168 hours. Launches outside the scanned blocks are not counted.
+Based on the saved scan history, which covers about 140.8 of the last 168 hours. Launches outside the scanned blocks are not counted.
 
 ## Coverage
 
-- Requested window: last 24 hours, blocks 53548478 to 53591677.
+- Requested window: last 24 hours, blocks 53638060 to 53681259.
 - This report merges 1 scan(s) that read logs in this window. Flagged launches are kept in `history/flagged.jsonl` (one line per token) and each scan's block range in `history/scans.jsonl`.
 - Full window covered by the merged scans.
 - Latest scan: full window served (base-rpc.publicnode.com).
