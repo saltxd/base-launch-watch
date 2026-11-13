@@ -6,13 +6,11 @@
 
 New Clanker v4 launches on Base from the last 24 hours whose launch wallet sent out 90% or more of the tokens it received in the launch transaction within one hour (1,800 blocks) of launch. Newest first.
 
-Generated 2026-11-12 16:46 UTC at block 56558164.
+Generated 2026-11-13 01:03 UTC at block 56707168.
 
-| Token | Token address | Launch time (UTC) | Launch wallet | Tokens received | Minutes until 90% was gone | Basescan |
-| --- | --- | --- | --- | ---: | ---: | --- |
-| AODF | `0xf1ea211d8ccae280b14b3bb1bb19b25d496b9de5` | 2026-11-12 14:38 | `0x4a9cbe77a242b746f2f8748486e04cbefed0c441` | 16,220,076,574.49 | 23.6 | [token](https://basescan.org/token/0xf1ea211d8ccae280b14b3bb1bb19b25d496b9de5), [launch tx](https://basescan.org/tx/0x99e8bf8d7d4c784cddffe1917f846b8da483874c016eba202aedefe659a69eff) |
+_No launches in the checked window matched the rule._
 
-Launches flagged in the last 24 hours: 1. Latest scan: launches checked: 23. Launches with a dev buy: 21. Launches flagged: 1.
+Launches flagged in the last 24 hours: 0. Latest scan: launches checked: 10. Launches with a dev buy: 10. Launches flagged: 0.
 
 ## Launch wallets flagged more than once (last 7 days)
 
@@ -22,7 +20,7 @@ Based on the saved scan history, which covers about 48.0 of the last 168 hours. 
 
 ## Coverage
 
-- Requested window: last 24 hours, blocks 56514965 to 56558164.
+- Requested window: last 24 hours, blocks 56663969 to 56707168.
 - This report merges 1 scan(s) that read logs in this window. Flagged launches are kept in `history/flagged.jsonl` (one line per token) and each scan's block range in `history/scans.jsonl`.
 - Full window covered by the merged scans.
 - Latest scan: full window served (base-rpc.publicnode.com).
