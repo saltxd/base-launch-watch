@@ -6,23 +6,23 @@
 
 New Clanker v4 launches on Base from the last 24 hours whose launch wallet sent out 90% or more of the tokens it received in the launch transaction within one hour (1,800 blocks) of launch. Newest first.
 
-Generated 2026-11-17 02:54 UTC at block 58468585.
+Generated 2026-11-17 13:18 UTC at block 58655568.
 
-_No launches in the checked window matched the rule._
+| Token | Token address | Launch time (UTC) | Launch wallet | Tokens received | Minutes until 90% was gone | Basescan |
+| --- | --- | --- | --- | ---: | ---: | --- |
+| EXO | `0xd702b3547b16db925665dc526fb0e750b4373862` | 2026-11-17 12:11 | `0x4f2c49c54cf28549a222188fc9c5456092035fd7` | 100,000,000,000 | 30.2 | [token](https://basescan.org/token/0xd702b3547b16db925665dc526fb0e750b4373862), [launch tx](https://basescan.org/tx/0xea1b52e22813ddac4be3e88d2800ec4b02f62260b3b52bf611ae0aa8ac42660d) |
 
-Launches flagged in the last 24 hours: 0. Latest scan: launches checked: 19. Launches with a dev buy: 2. Launches flagged: 0.
+Launches flagged in the last 24 hours: 1. Latest scan: launches checked: 34. Launches with a dev buy: 7. Launches flagged: 1.
 
 ## Launch wallets flagged more than once (last 7 days)
 
-| Launch wallet | Flagged launches | Token addresses (newest first) |
-| --- | ---: | --- |
-| [`0x90159f4b3f48c7e046661ee3b2512093183e9931`](https://basescan.org/address/0x90159f4b3f48c7e046661ee3b2512093183e9931) | 3 | `0x2d809c95dfecd89e517f54de84a0ab4d7d280b07`, `0x2d05e1b0de3a08b7637d95adaa79f27fb9900b07`, `0x1f77df36f32dd280f2318025f00a67fc694b0b07` |
+_No launch wallet was flagged more than once in the last 7 days._
 
 Based on the saved scan history, which covers about 48.0 of the last 168 hours. Launches outside the scanned blocks are not counted.
 
 ## Coverage
 
-- Requested window: last 24 hours, blocks 58425386 to 58468585.
+- Requested window: last 24 hours, blocks 58612369 to 58655568.
 - This report merges 1 scan(s) that read logs in this window. Flagged launches are kept in `history/flagged.jsonl` (one line per token) and each scan's block range in `history/scans.jsonl`.
 - Full window covered by the merged scans.
 - Latest scan: full window served (base-rpc.publicnode.com).
