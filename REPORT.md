@@ -6,11 +6,11 @@
 
 New Clanker v4 launches on Base from the last 24 hours whose launch wallet sent out 90% or more of the tokens it received in the launch transaction within one hour (1,800 blocks) of launch. Newest first.
 
-Generated 2026-11-20 07:08 UTC at block 59840586.
+Generated 2026-11-20 16:56 UTC at block 60016926.
 
 _No launches in the checked window matched the rule._
 
-Launches flagged in the last 24 hours: 0. Latest scan: launches checked: 228. Launches with a dev buy: 6. Launches flagged: 0.
+Launches flagged in the last 24 hours: 0. Latest scan: launches checked: 0. Launches with a dev buy: 0. Launches flagged: 0.
 
 ## Launch wallets flagged more than once (last 7 days)
 
@@ -20,7 +20,7 @@ Based on the saved scan history, which covers about 48.0 of the last 168 hours. 
 
 ## Coverage
 
-- Requested window: last 24 hours, blocks 59797387 to 59840586.
+- Requested window: last 24 hours, blocks 59973727 to 60016926.
 - This report merges 1 scan(s) that read logs in this window. Flagged launches are kept in `history/flagged.jsonl` (one line per token) and each scan's block range in `history/scans.jsonl`.
 - Full window covered by the merged scans.
 - Latest scan: full window served (base-rpc.publicnode.com).
