@@ -6,14 +6,11 @@
 
 New Clanker v4 launches on Base from the last 24 hours whose launch wallet sent out 90% or more of the tokens it received in the launch transaction within one hour (1,800 blocks) of launch. Newest first.
 
-Generated 2026-11-27 21:11 UTC at block 63117627.
+Generated 2026-11-28 07:41 UTC at block 63306542.
 
-| Token | Token address | Launch time (UTC) | Launch wallet | Tokens received | Minutes until 90% was gone | Basescan |
-| --- | --- | --- | --- | ---: | ---: | --- |
-| USAR | `0xd21aeb0b7b07da8ec658bbc513d133552833fd45` | 2026-11-27 19:56 | `0x4492697e439d519560d37d57cce36a7f3f839c15` | 14,915,927,862.38 | 5.2 | [token](https://basescan.org/token/0xd21aeb0b7b07da8ec658bbc513d133552833fd45), [launch tx](https://basescan.org/tx/0x65f3d91381c56b617618cde09576b54f2ff23b08301867f94188449d194e60f3) |
-| NOTF | `0x4094bb0002aac2e3ffd7883884c7971685b6a449` | 2026-11-27 19:53 | `0xd429ade27854b4cef364bb38adcbf4e05e4b117b` | 19,317,840,809.05 | 6.2 | [token](https://basescan.org/token/0x4094bb0002aac2e3ffd7883884c7971685b6a449), [launch tx](https://basescan.org/tx/0x899ddf68949512097d80a24c053172c4d265773932daac95f7766b8874a52e8b) |
+_No launches in the checked window matched the rule._
 
-Launches flagged in the last 24 hours: 2. Latest scan: launches checked: 108. Launches with a dev buy: 2. Launches flagged: 2.
+Launches flagged in the last 24 hours: 0. Latest scan: launches checked: 90. Launches with a dev buy: 0. Launches flagged: 0.
 
 ## Launch wallets flagged more than once (last 7 days)
 
@@ -23,7 +20,7 @@ Based on the saved scan history, which covers about 48.0 of the last 168 hours. 
 
 ## Coverage
 
-- Requested window: last 24 hours, blocks 63074428 to 63117627.
+- Requested window: last 24 hours, blocks 63263343 to 63306542.
 - This report merges 1 scan(s) that read logs in this window. Flagged launches are kept in `history/flagged.jsonl` (one line per token) and each scan's block range in `history/scans.jsonl`.
 - Full window covered by the merged scans.
 - Latest scan: full window served (base-rpc.publicnode.com).
